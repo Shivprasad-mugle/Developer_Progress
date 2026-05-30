@@ -65,3 +65,24 @@ in preformatted style
 ```
 ---
 ✨ These are commonly used basic HTML tags for structuring content.
+---------------------------------------------------------------------------------------------------------
+📄 formate.html(30/05/2026)
+# 📝 HTML Text Formatting
+This file demonstrates different **HTML text formatting tags**.
+
+## 📌 Tags Used
+* `<b>` → Bold text
+* `<i>` → Italic text
+* `<strong>` → Important text
+* `<em>` → Emphasized text
+* `<small>` → Smaller text
+* `<sub>` → Subscript
+* `<sup>` → Superscript
+* `<mark>` → Highlighted text
+* `<del>` → Deleted text
+* `<ins>` → Inserted text
+* 
+## 🚀 How to Run
+Open the file in a browser to see formatted text.
+---
+✨ Basic example to understand HTML text formatting.
