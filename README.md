@@ -128,3 +128,23 @@ This project demonstrates how to use different **color styles in HTML** using in
 ## 📌 Purpose
 Learn how to apply colors in HTML and understand different color formats.
 ---------------------------------------------------------------------------------------------------
+📄font.html(31/05/2026)
+# 🎨 HTML & CSS Styling Basics
+This project covers the fundamentals of **HTML styling and CSS usage**.
+
+## 🔹 Topics Covered
+* Inline CSS using `style` attribute
+* Internal CSS using `<style>`
+* External CSS using `<link>`
+* Use of `<head>` for styles
+
+## 🎯 CSS Properties
+* `color` → Text color
+* `font-family` → Font style
+* `font-size` → Text size
+* `border` → Element border
+* `padding` → Space inside border
+* `margin` → Space outside border
+
+## 🚀 Purpose
+To understand how to style web pages using basic CSS techniques.
