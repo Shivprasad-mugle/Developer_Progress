@@ -86,7 +86,7 @@ This file demonstrates different **HTML text formatting tags**.
 Open the file in a browser to see formatted text.
 ---
 ✨ Basic example to understand HTML text formatting.
-
+-----------------------------------------------------------------------------------------
 📄quotation.html(31/05/2026)
 # 📘 HTML Quotation & Citation Elements
 This project shows basic HTML quotation and citation tags.
@@ -101,3 +101,30 @@ This project shows basic HTML quotation and citation tags.
 
 ## 🚀 Purpose
 Learn semantic HTML and improve code readability.
+-----------------------------------------------------------------------------------------
+📄color.html(31/05/2025)
+# 🎨 HTML Colors Example
+This project demonstrates how to use different **color styles in HTML** using inline CSS.
+
+## 🔹 Features
+* Background colors using color names (Tomato, Orange, etc.)
+* Text colors
+* Border colors
+* RGB, HEX, HSL color values
+* Transparent colors using RGBA & HSLA
+
+## 🚀 Concepts Covered
+* `background-color`
+* `color`
+* `border`
+* Different color formats:
+
+  * RGB
+  * HEX
+  * HSL
+  * RGBA
+  * HSLA
+
+## 📌 Purpose
+Learn how to apply colors in HTML and understand different color formats.
+---------------------------------------------------------------------------------------------------
