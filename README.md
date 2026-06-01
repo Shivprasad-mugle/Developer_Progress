@@ -214,3 +214,27 @@ Helpful for long pages like:
 * Notes
 * Tutorials
 --------------------------------------------------------------------------------------------------------------------------
+📄img.html(1/06/2026)
+📸 Preview
+<p align="center"> <img src="workplace.jfif" width="500" alt="Workplace Image"> </p>
+
+✨ Features
+🖼️ Display images using <img>
+🗺️ Create interactive image maps
+🎯 Click different parts of image for different actions
+💡 Beginner-friendly HTML concepts
+
+🧠 How It Works
+<img src="workplace.jfif" usemap="#workmap" width="600">
+
+<map name="workmap">
+  <area shape="rect" coords="150,120,600,400" href="#" alt="Laptop">
+  <area shape="rect" coords="650,350,1000,650" href="#" alt="Notebook">
+  <area shape="circle" coords="900,350,50" href="#" alt="Mouse">
+</map>
+
+🎯 Clickable Areas
+Area	Shape	Action
+💻 Laptop	Rectangle	Opens link
+📓 Notebook	Rectangle	Opens link
+🖱️ Mouse	Circle	Opens link
