@@ -216,31 +216,43 @@ Helpful for long pages like:
 --------------------------------------------------------------------------------------------------------------------------
 📄img.html(1/06/2026)
 
-*✨ Features
-*🖼️ Display images using <img>
-*🗺️ Create interactive image maps
-*🎯 Click different parts of image for different actions
-*💡 Beginner-friendly HTML concepts
+# 🖼️ HTML Image Map
 
-##Here are the most common image file types, which are supported in all browsers (Chrome, Edge, Firefox, Safari, Opera):
+An **image map** lets you create clickable areas on an image.
 
-*Abbreviation	File Format	               File Extension
-*APNG	Animated Portable Network Graphics	.apng
-*GIF	     Graphics Interchange Format	     .gif
-*ICO	      Microsoft Icon	                 .ico, .cur
-*JPEG	Joint Photographic Expert Group image .jpg, .jpeg, .jfif, .pjpeg, .pjp
-*PNG	        Portable Network Graphics	      .png
-*SVG	     Scalable Vector Graphics	          .svg 
+---
 
-##HTML Image Tags
-*Tag	       Description
-*<img>	     Defines an image
-*<map>	     Defines an image map
-*<area>	   Defines a clickable area inside an image map
-*<picture>	 Defines a container for multiple image resources
+## 📌 Key Points
 
-##🎯 Clickable Areas
-*Area	Shape	Action
-*💻 Laptop	Rectangle	Opens link
-*📓 Notebook	Rectangle	Opens link
-*🖱️ Mouse	Circle	Opens link
+* `<map>` → defines the image map
+* `<area>` → defines clickable regions
+* `usemap` → links image to the map
+
+---
+
+## 💡 Example
+
+```html
+<img src="image.jpg" usemap="#map1" alt="Example">
+
+<map name="map1">
+  <area shape="rect" coords="34,44,270,350" href="page1.html" alt="Area1">
+  <area shape="circle" coords="337,300,44" href="page2.html" alt="Area2">
+</map>
+```
+
+---
+
+## 🚀 Shapes
+
+* `rect` → rectangle
+* `circle` → circle
+* `poly` → polygon
+
+---
+
+## 🎯 Clickable Areas
+* Area	Shape	Action
+* 💻 Laptop	Rectangle	Opens link
+* 📓 Notebook	Rectangle	Opens link
+* 🖱️ Mouse	Circle	Opens link
